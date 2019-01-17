@@ -16,3 +16,33 @@
 		text-align: center;
 	}
 }
+
+
+/* 記事部分の幅の設定*/
+@media screen and (min-width: 48em) {
+
+	/* Layout */
+
+	.wrap {
+		max-width: 1200px;   /* 全体の横幅 */
+		padding-left: 2em;   /* 余白（左） */
+		padding-right: 2em;  /* 余白（右） */
+	}
+
+	.has-sidebar:not(.error404) #primary {
+		float: left;
+		width: 66%;          /* 記事の横幅 */
+	}
+
+	.has-sidebar #secondary {
+		float: right;
+		padding-top: 0;
+		width: 29%;          /* サイドバーの横幅 */
+	}
+
+	.navigation-top .wrap {
+		max-width: 1200px;   /* グローバルナビゲーションメニューの横幅 */
+		/* The font size is 14px here and we need 50px padding in ems */
+		padding: 0.75em 3.4166666666667em;
+	}
+}
