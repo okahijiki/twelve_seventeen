@@ -25,7 +25,7 @@
 	/* Layout */
 
 	.wrap {
-		max-width: 1200px;   /* 全体の横幅 */
+		max-width: 1000px;   /* 全体の横幅 */
 		padding-left: 2em;   /* 余白（左） */
 		padding-right: 2em;  /* 余白（右） */
 	}
