@@ -54,3 +54,11 @@
       white-space: nowrap;
       overflow: hidden;
 }
+
+/*YoastCEOの「パンくずリスト」の調整*/ 
+  #breadcrumbs {
+  text-align: center;
+   color: black;
+   font-size: 90%;
+}
+
