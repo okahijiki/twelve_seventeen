@@ -18,7 +18,7 @@
 }
 
 
-/* 記事部分の幅の設定*/
+/* 記事&サイドバーの横幅*/
 @media screen and (min-width: 48em) {
 
 	/* Layout */
@@ -44,7 +44,7 @@
 
 /*「好きの働き｡」の文字消す*/
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
-	text-indent: 100%;
+      text-indent: 100%;
       white-space: nowrap;
       overflow: hidden;
 }
