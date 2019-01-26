@@ -40,11 +40,6 @@
 		width: 29%;          /* サイドバーの横幅 */
 	}
 
-	.navigation-top .wrap {
-		max-width: 1200px;   /* グローバルナビゲーションメニューの横幅 */
-		/* The font size is 14px here and we need 50px padding in ems */
-		padding: 0.75em 3.4166666666667em;
-	}
 }
 
 /*「好きの働き｡」の文字消す*/
