@@ -3,8 +3,7 @@
 /*サイトタイトル下のキャッチフレーズ文字を大きくする*/
 .site-description {
 	color: #666;/*色*/
-	font-size: 13px;/*大きさ*/
-	font-size: 1.5rem;/*大きさ*/
+	font-size: 25px;/*大きさ*/
         padding-top:7px;/*上部のスペースの調整*/
 }
 
