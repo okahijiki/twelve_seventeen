@@ -42,6 +42,15 @@
 
 }
 
+
+
+/*本文のフォントサイズの変更*/
+body{
+	font-size: 18px
+}
+
+
+
 /*「好きの働き｡」の文字消す*/
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
       text-indent: 100%;
