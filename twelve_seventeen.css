@@ -1,19 +1,10 @@
 
-/*表示の幅を広げる*/
-.single-post:not(.has-sidebar) #primary,
-.page.page-one-column:not(.twentyseventeen-front-page) #primary,
-.archive.page-one-column:not(.has-sidebar) .page-header,
-.archive.page-one-column:not(.has-sidebar) #primary {
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1000px;}
-
 
 /*サイトタイトル下のキャッチフレーズ文字を大きくする*/
 .site-description {
 	color: #666;/*色*/
-	font-size: 13px;/*大きさ*/
-	font-size: 1.2rem;/*大きさ*/
+	font-size: 25px;/*大きさ*/
+        padding-top:7px;/*上部のスペースの調整*/
 }
 
 
@@ -25,3 +16,43 @@
 		text-align: center;
 	}
 }
+
+
+/* 記事&サイドバーの横幅*/
+@media screen and (min-width: 48em) {
+
+	/* Layout */
+
+	.wrap {
+		max-width: 1000px;   /* 全体の横幅 */
+		padding-left: 10px;   /* 余白（左） */
+		padding-right:10px;  /* 余白（右） */
+	}
+
+	.has-sidebar:not(.error404) #primary {
+		float: left;
+		width: 66%;          /* 記事の横幅 */
+	}
+
+	.has-sidebar #secondary {
+		float: right;
+		padding-top: 0;
+		width: 29%;          /* サイドバーの横幅 */
+	}
+
+}
+
+/*「好きの働き｡」の文字消す*/
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+}
+
+/*YoastCEOの「パンくずリスト」の調整*/ 
+  #breadcrumbs {
+  text-align: center;
+   color: black;
+   font-size: 90%;
+}
+
