@@ -70,3 +70,20 @@ body{
 img.image.wp-image-12480.attachment-full.size-full {
     margin-bottom: -10px;
 }
+
+/*iPhoneのタイトルの表示*/
+
+@media (max-width: 650px) {
+.site-title{
+	font-size: 23px
+ }
+}
+
+/*iPhoneのキャッチフレーズの表示*/
+
+@media (max-width: 650px) {
+.site-description {
+	font-size: 21px
+ }
+}
+
