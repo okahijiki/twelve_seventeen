@@ -42,6 +42,15 @@
 
 }
 
+
+
+/*本文のフォントサイズの変更*/
+body{
+	font-size: 18px
+}
+
+
+
 /*「好きの働き｡」の文字消す*/
 .page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
       text-indent: 100%;
@@ -54,5 +63,27 @@
   text-align: center;
    color: black;
    font-size: 90%;
+}
+
+
+/*ウィジットのイラストを下げる*/
+img.image.wp-image-12480.attachment-full.size-full {
+    margin-bottom: -10px;
+}
+
+/*iPhoneのタイトルの表示*/
+
+@media (max-width: 650px) {
+.site-title{
+	font-size: 23px
+ }
+}
+
+/*iPhoneのキャッチフレーズの表示*/
+
+@media (max-width: 650px) {
+.site-description {
+	font-size: 21px
+ }
 }
 

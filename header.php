@@ -55,3 +55,10 @@
 
 	<div class="site-content-contain">
 		<div id="content" class="site-content">
+
+	<?php
+          /*yoatCEOの「パンくずリスト」を有効にするためのコード*/
+	if ( function_exists('yoast_breadcrumb') ) {
+	  yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+	}
+	?>
