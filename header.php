@@ -26,6 +26,13 @@
             }
 ?>
 
+<?php 
+     /*時系列的に表示されるページすべてをnoindexする*/
+     if ( is_home() && is_paged() ){
+          echo "<meta name = 'robots'  content = 'noindex' />";
+             }
+?>
+
 <?php wp_head(); ?>
 </head>
 
