@@ -18,6 +18,20 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+	
+<?php 
+    /*category/allのページをnoindexする*/
+    if (is_category('all')){
+         echo "<meta name = 'robots'  content = 'noindex' />";
+            }
+?>
+
+<?php 
+     /*時系列的に表示されるページすべてをnoindexする*/
+     if ( is_home() && is_paged() ){
+          echo "<meta name = 'robots'  content = 'noindex' />";
+             }
+?>
 
 <?php wp_head(); ?>
 </head>
