@@ -33,6 +33,14 @@
              }
 ?>
 
+<?php 
+     /*auther名前で表示されるページをnoindexとする*/
+     if (is_author('fu_tsuru')){
+          echo "<meta name = 'robots'  content = 'noindex' />";
+             }
+?>	
+	
+	
 <?php wp_head(); ?>
 </head>
 
