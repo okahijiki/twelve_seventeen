@@ -1,2 +1,2 @@
 ### twelve_seventeen
-##### WordPressのテーマに関する追記コード｡
+##### WordPressのテーマ「twelve seventeen」に関する追記コード｡
