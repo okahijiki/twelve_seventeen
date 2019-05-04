@@ -90,3 +90,9 @@ img.image.wp-image-12480.attachment-full.size-full {
  }
 }
 
+/*テーブルの画像をはみ出さないようにする*/
+
+img {
+    max-width: 100%;
+}
+
