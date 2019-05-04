@@ -50,11 +50,8 @@ body{
 }
 
 
-/*「好きの働き｡」ロゴの下にマージンを作成する*/
-.entry-content a img{
-	 margin-bottom:25px;
-}
-
+/*「好きの働き｡」ロゴの下にマージンを作成する=>マージンを解消*/
+.entry-content p a img
 
 
 /*「好きの働き｡」の文字消す*/
