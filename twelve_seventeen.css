@@ -96,3 +96,11 @@ img {
     max-width: 100%;
 }
 
+
+/*テーブル内の画像のまわりのホワイトスペースをとる*/
+
+.entry-content table a img {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
