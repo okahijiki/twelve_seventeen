@@ -18,6 +18,19 @@
 }
 
 
+
+/*かめらぼを､レスポンシブに（こちらを利用中）*/
+@media (max-width: 650px) {
+	.top-page-table{
+		width:100%;
+		display: block;
+		padding: 0.6em;
+		text-align: center;
+	}
+}
+
+
+
 /* 記事&サイドバーの横幅*/
 @media screen and (min-width: 48em) {
 
