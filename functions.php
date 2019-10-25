@@ -67,5 +67,11 @@ function create_post_type() {
 }
 add_action( 'init', 'create_post_type' );
 
+/*「好きの働き」のイメージエディタの崩れを防ぐ*/
+table {
+            table-layout: fixed;
+               }
+
+
 
 
