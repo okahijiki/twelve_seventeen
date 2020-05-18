@@ -73,17 +73,6 @@ table {
                }
 
 
-/*prism (コードの記述を見やすくするplugin）を有効にする
-<?php
 
-/* *** js/cssの読込み *** */
-function load_extra_files() {
-  // Prism.jsのcssとjsの呼び出し
-  wp_enqueue_style('prism-style', get_stylesheet_directory_uri() . '/css/prism.css');
-  wp_enqueue_script('prism-script', get_stylesheet_directory_uri() . '/js/prism.js', array(), false, false);
-}
-add_action('wp_enqueue_scripts', 'load_extra_files');
-
-?>
 
 
