@@ -38,7 +38,7 @@
 
 	.wrap {
 		max-width: 1000px;   /* 全体の横幅 */
-		padding-left: 10px;   /* 余白（左） */
+		padding-left: 15px;   /* 余白（左） */
 		padding-right:10px;  /* 余白（右） */
 	}
 
