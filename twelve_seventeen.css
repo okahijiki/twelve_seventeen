@@ -117,3 +117,10 @@ img {
 	box-shadow: none;
 }
 
+/*スマホのヘッダーのタイトルの改行*/
+
+@media screen and (min-width: 30em) {
+	.site-title br {
+		display: none;
+	}
+}
