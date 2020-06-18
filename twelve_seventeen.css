@@ -133,11 +133,12 @@ img {
 
 /*スマホのメニューの背景色を変更する*/
 @media (max-width: 650px){
-.navigation-top {
-	background: rgba(152, 195, 176, 100); /*背景色#98c3b0*/
-	border-bottom: 1px solid rgba(49,80,150,0.25); /*上線の太さと色*/
-	border-top: 1px solid rgba(49,80,150,0.25); /*下線の太さと色*/
+	.navigation-top {
+	background: rgba(353, 70, 93, 100); /*背景色 きんあか*/
+	border-bottom: 1px solid rgba(353, 70, 93, 100); /*上線の太さと色*/
+	border-top: 1px solid rgba(353, 70, 93, 100) ; /*下線の太さと色*/
  }
 }
+
 
 
