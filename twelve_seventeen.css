@@ -125,35 +125,19 @@ img {
 	}
 }
 
-/*メニューバー背景をカスタマイズする*/
+/*メニューバーのマウスオーバーの際の文字の色*/
+.navigation-top a:hover {
+	color: #d36015;
+}
+
+
+/*スマホのメニューの背景色を変更する*/
+@media (max-width: 650px){
 .navigation-top {
-	background: rgba(88,96,46,100); /*背景色*/
+	background: rgba(152, 195, 176, 100); /*背景色#98c3b0*/
 	border-bottom: 1px solid rgba(49,80,150,0.25); /*上線の太さと色*/
 	border-top: 1px solid rgba(49,80,150,0.25); /*下線の太さと色*/
+ }
 }
 
 
-/*メニューバーの文字の色をカスタマイズする*/
-.navigation-top a {
-	color:  rgb(255, 255, 255); /*文字色*/
-	-webkit-transition: color 0.3s; /*文字色の変化に要する時間*/
-	transition: color 0.3s; /*文字色の変化に要する時間*/
-}
-
-/*マウスオーバーしたときの文字の色*/
-
-.navigation-top a:hover {
-	color: #d36015; /*マウスオーバーの文字色*/
-}
-
-/* スマホ版メニューの文字色を変更する */
-.menu-toggle   {
-		color: rgb(242,233,228,100);
-	}
-
-
-/* プルダウンメニューの背景色を変更する（スマホ対応） */
-
-.main-navigation ul {
-		background: rgba(88,96,46,100);
-	}
