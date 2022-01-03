@@ -95,6 +95,12 @@ img.image.wp-image-12480.attachment-full.size-full {
  }
 }
 
+/*iphone本文の文字の大きさ*/
+@media (max-width: 650px) {	
+	body{
+	font-size: 17px
+}
+
 /*iPhoneのキャッチフレーズの表示*/
 
 @media (max-width: 650px) {
